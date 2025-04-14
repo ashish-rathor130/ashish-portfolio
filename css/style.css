@@ -38,7 +38,7 @@ body{
     background-color: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    padding: 0 30px;
+    padding: 0 44px;
     /* position: fixed;
     left: 270px;
     top: 0;
@@ -52,7 +52,7 @@ body{
 }
 .main-content
 {
-    padding-left: 270px;
+    padding-left: 270px;   
 }
 .padd-15{
     padding-left: 15px;
@@ -93,6 +93,7 @@ body{
     box-shadow: 0 0 20px rgba(48,46 , 77, 0.15);
 }
 /* second section about */
+
 section .container
 {
     padding-top: 60px;
@@ -816,6 +817,9 @@ h3.my-profession
         {
             display: none;
         }
+        .btn{
+            margin-bottom: 20px;
+        }
 }
 
 @media (max-width:991px) {
@@ -836,7 +840,7 @@ h3.my-profession
             display: none;
         }
         .btn{
-            margin-top: 10px;
+            margin-top: 20px;
         }
         .portfolio .portfolio-item{
             margin:20px auto;
@@ -863,5 +867,9 @@ h3.my-profession
     .padd-15
     {
         padding-left: 0;
+    }
+    .porfolio-img img{
+        width: 300px;
+        margin: auto;
     }
 } 
